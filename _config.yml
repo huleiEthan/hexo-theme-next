@@ -1207,6 +1207,6 @@ vendors:
   disqusjs_css:
 
 # Assets
-css: css
-js: js
-images: images
+css: http://world.lei-hou.com/css
+js: http://world.lei-hou.com/js
+images: http://world.lei-hou.com/images
