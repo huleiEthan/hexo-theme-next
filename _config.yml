@@ -1085,7 +1085,8 @@ vendors:
   # Example:
   # fontawesome: //cdn.jsdelivr.net/npm/font-awesome@4/css/font-awesome.min.css
   # fontawesome: //cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.2/css/font-awesome.min.css
-  fontawesome: //world.lei-hou.com/lib/font-awesome/css/font-awesome.min.css?v=4.6.2
+  # fontawesome: //world.lei-hou.com/lib/font-awesome/css/font-awesome.min.css?v=4.6.2
+  fontawesome: https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css
 
   # Internal version: 2.10.4
   # See: https://www.algolia.com
