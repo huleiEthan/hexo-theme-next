@@ -632,14 +632,14 @@ changyan:
 # You can get your appid and appkey from https://leancloud.cn
 # More info available at https://valine.js.org
 valine:
-  enable: false # When enable is set to be true, leancloud_visitors is recommended to be closed for the re-initialization problem within different leancloud adk version.
-  appid:  # your leancloud application appid
-  appkey:  # your leancloud application appkey
-  notify: false # mail notifier, See: https://github.com/xCss/Valine/wiki
+  enable: true # When enable is set to be true, leancloud_visitors is recommended to be closed for the re-initialization problem within different leancloud adk version.
+  appid: EHhXzN4PQe7cUMHfLWfMIMJ8-gzGzoHsz # your leancloud application appid
+  appkey: 2xNtN5UyoRJnDJS0WicAL8AK # your leancloud application appkey
+  notify: true # mail notifier, See: https://github.com/xCss/Valine/wiki
   verify: false # Verification code
-  placeholder: Just go go # comment box placeholder
-  avatar: mm # gravatar style
-  guest_info: nick,mail,link # custom comment header
+  placeholder: 不留下点什么吗 # comment box placeholder
+  avatar: wavatar # gravatar style
+  guest_info: nick,mail # custom comment header
   pageSize: 10 # pagination size
   language: # language, available values: en, zh-cn
   visitor: false # leancloud-counter-security is not supported for now. When visitor is set to be true, appid and appkey are recommended to be the same as leancloud_visitors' for counter compatibility. Article reading statistic https://valine.js.org/visitor.html
@@ -647,7 +647,8 @@ valine:
 
 # LiveRe comments system
 # You can get your uid from https://livere.com/insight/myCode (General web site)
-livere_uid: 'MTAyMC80MzM5OS8xOTk0MA=='
+# livere_uid: 'MTAyMC80MzM5OS8xOTk0MA=='
+livere_uid:
 
 # Gitment
 # Introduction: https://github.com/imsun/gitment
